@@ -1,0 +1,110 @@
+@media screen and (min-width: 400px){
+    h1{
+        color: yellow;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .image{
+
+    }
+
+}
+
+
+
+.entete{
+    background-image: url('../../../im/Guadeloupe.jpg');
+    background-repeat: no-repeat;/* l'image ne se repete pas*/
+    padding: 50px;/*espace interirieur*/
+    text-align: center;/*text centrer*/
+    background-size: cover;/*defini la taille de l'image*/
+    height: 350px;/*defini l hauteur*/
+    background-position: center;/* defini la position de l'image*/
+    margin-top: -50px;/*montre l'image vers le haut*/
+    color: white;/* couleur du text */
+
+
+
+}
+
+.logo{
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+}
+
+#logo{
+    margin-top: -45px;
+    margin-left: -45px;
+}
+.box{
+   width: auto;
+}
+
+.citation{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px;
+    font-style: italic;
+    color: blue;
+}
+
+.article{
+    box-shadow: 6px 6px 6px black ;
+    margin: 50px;
+
+}
+.image1{
+    height: 10%;
+    width: 50%;
+}
+
+.marge{
+    margin: 10px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+.fpar{
+    color: white;
+
+}
+
+.pied{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#hr
+ {
+   background-color:white;
+   color:#C80000;
+   -webkit-transform:rotate(90deg);
+   position:absolute;
+   left:130px;
+   border:2px;
+ }
+
+ul{
+    list-style: none;
+}
+
+a:link{/*retirer les decoration*/
+    text-decoration: none;
+}
+
+.hover{
+  width:300px;
+  height:400px;
+
+}
